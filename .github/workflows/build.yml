@@ -17,10 +17,7 @@ jobs:
 
       - name: Build & Publish
         run: |
-          docker pull ghcr.io/pdugas/goatchella:latest || true
-          docker build \
-            --cache-from ghcr.io/pdugas/goatchella:latest \
-            -t ghcr.io/pdugas/goatchella:latest \
-            .
+          docker run --rm -it -v $(pwd)/site:/src klakegg/hugo:0.92.1
+          docker build -t ghcr.io/pdugas/goatchella:latest .
           docker push ghcr.io/pdugas/goatchella:latest
 
