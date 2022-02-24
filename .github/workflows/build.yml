@@ -24,9 +24,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build
-        run: |
-          docker run --rm -v $(pwd)/site:/src klakegg/hugo:0.92.1
-          ls -R site/public
+        run: docker run --rm -v $(pwd)/site:/src klakegg/hugo:0.92.1
 
       - name: Package & Publish
         uses: docker/build-push-action@v2
