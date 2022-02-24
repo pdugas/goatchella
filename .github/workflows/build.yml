@@ -15,9 +15,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build Image
-        run: docker build -t ghcr.io/pdugas/goatchella:latest .
-
-      - name: Publish Image
-        run: docker push ghcr.io/pdugas/goatchella:latest
+      - name: Build & Publish
+        run: |
+          docker build -t ghcr.io/pdugas/goatchella:latest .
+          docker push ghcr.io/pdugas/goatchella:latest
 

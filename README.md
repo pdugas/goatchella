@@ -1,8 +1,7 @@
 # Goatchella - _This is gonna be baaaaaaaahd_
 
 ```
-docker build -t goatchella .
-docker run --rm -it --name goatchella -p 8000:80 goatchella
+docker run --rm -it --name goatchella -p 8000:80 ghcr.io/pdugas/goatchella:latest
 ```
 
 Then hit <http://localhost:8000/>
