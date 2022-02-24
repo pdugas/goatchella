@@ -28,11 +28,8 @@ jobs:
           docker run --rm -v $(pwd)/site:/src klakegg/hugo:0.92.1
 
       - name: Package & Publish
-        uses: mr-smithers-excellent/docker-build-push@v5
+        uses: docker/docker-build-push@v2
         with:
-          image: pdugas/goatchella
-          registry: ghcr.io
+          tags: ghcr.io/pdugas/goatchella:latest
           platforms: linux/amd64,linux/arm64
-          addLatest: true
-          addTimestamp: true
           push: true
