@@ -1,0 +1,23 @@
+name: build
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Login to Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build Image
+        run: docker build -t ghcr.io/pdugas/goatchella:latest .
+
+      - name: Publish Image
+        run: docker push ghcr.io/pdugas/goatchella:latest
+
