@@ -1,5 +1,79 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Goatchella"
-theme = "ananke"
+title = "Goatchella | 2022"
+theme = "twenty-twenty"
 relativeURLs = true
+
+[[menu.main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+URL = "about/"
+weight = 2
+
+[params]
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+
+# favicon
+[params.favicon]
+favicon = "images/favicon.png"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# banner
+[params.banner]
+#heading = "Goatchella 2022"
+image = "images/banner.jpg"
+
+# blog
+[params.blog]
+heading = "Goatchella 2022 Lineup"
+
+# call to action
+[params.call_to_action]
+#enable = true
+title = "Contact us for more information."
+content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
+button_label = "Contact Us"
+button_url = "contact/"
+
+# gallery
+[params.gallery]
+enable = true
+
+[[params.gallery.gallery_item]]
+image = "images/the-bleatles.png"
+
+[[params.gallery.gallery_item]]
+image = "images/okgoat.png"
+
+[[params.gallery.gallery_item]]
+image = "images/goatsmack.png"
+
+[[params.gallery.gallery_item]]
+image = "images/vandoren.png"
+
+[params.footer]
+title = "About Us"
+content = "Don't mind us. We're just a bunch of goat-obcessed cribilanians."
+address = "123 Main Street, New York, NY 10001"
+hours = "Monday–Friday: 9:00AM–4:20PM"
+copyright = "Copyright &copy; 2022 Silly Nonsense, Inc."
+
+[params.social]
+yelp = "#"
+facebook = "#"
+twitter = "#"
+instagram = "#"
+email = "#"
+linkedin = "#"
+
+
