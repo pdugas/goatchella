@@ -63,7 +63,7 @@ image = "images/vandoren.png"
 
 [params.footer]
 title = "About Us"
-content = "Don't mind us. We're just a bunch of goat-obcessed cribilanians."
+content = "Don't mind us. We're just a bunch of goat-obsessed criblanians."
 address = "123 Main Street, New York, NY 10001"
 hours = "Monday–Friday: 9:00AM–4:20PM"
 copyright = "Copyright &copy; 2022 Silly Nonsense, Inc."
