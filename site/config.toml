@@ -35,7 +35,7 @@ image = "images/banner.jpg"
 
 # blog
 [params.blog]
-heading = "Goatchella 2022 Lineup"
+heading = "2022 Lineup"
 
 # call to action
 [params.call_to_action]
@@ -53,13 +53,13 @@ enable = true
 image = "images/the-bleatles.png"
 
 [[params.gallery.gallery_item]]
-image = "images/okgoat.png"
+image = "images/vandoren.png"
 
 [[params.gallery.gallery_item]]
 image = "images/goatsmack.png"
 
 [[params.gallery.gallery_item]]
-image = "images/vandoren.png"
+image = "images/okgoat.png"
 
 [params.footer]
 title = "About Us"
