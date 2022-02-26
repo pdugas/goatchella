@@ -4,20 +4,28 @@ title = "Goatchella | 2022"
 theme = "twenty-twenty"
 relativeURLs = true
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [[menu.main]]
 name = "Home"
 URL = "/"
 weight = 1
 
 [[menu.main]]
+name = "Travel"
+URL = "travel/"
+weight = 2
+
+[[menu.main]]
 name = "About"
 URL = "about/"
-weight = 2
+weight = 3
 
 [params]
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Who makes this stuff?"
+author = "Silly Criblanians"
 
 # favicon
 [params.favicon]
@@ -25,7 +33,7 @@ favicon = "images/favicon.png"
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 
 # banner
@@ -35,15 +43,15 @@ image = "images/banner.jpg"
 
 # blog
 [params.blog]
-heading = "2022 Lineup"
+heading = "Music, Art, Albania\n\nand GOATS!"
 
 # call to action
 [params.call_to_action]
-#enable = true
-title = "Contact us for more information."
-content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
-button_label = "Contact Us"
-button_url = "contact/"
+enable = true
+title = "Bitinckë or Bust!"
+content = "Join us in lovely Bitinckë, Albania for a week-long event. Book your travel plans now!"
+button_label = "Travel"
+button_url = "travel/"
 
 # gallery
 [params.gallery]
@@ -64,8 +72,8 @@ image = "images/okgoat.png"
 [params.footer]
 title = "About Us"
 content = "Don't mind us. We're just a bunch of goat-obsessed criblanians."
-address = "123 Main Street, New York, NY 10001"
-hours = "Monday–Friday: 9:00AM–4:20PM"
+address = "42 Unnamed, Road, Bitinckë, Albania"
+hours = "Weekdays, 9:00AM–4:20PM, GMT+1"
 copyright = "Copyright &copy; 2022 Silly Nonsense, Inc."
 
 [params.social]
