@@ -69,6 +69,12 @@ image = "images/goatsmack.png"
 [[params.gallery.gallery_item]]
 image = "images/okgoat.png"
 
+[[params.gallery.gallery_item]]
+image = "images/ladybaabaa.png"
+
+[[params.gallery.gallery_item]]
+image = "images/bluehorngroup.png"
+
 [params.footer]
 title = "About Us"
 content = "Don't mind us. We're just a bunch of goat-obsessed criblanians."
