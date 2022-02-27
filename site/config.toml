@@ -61,7 +61,7 @@ enable = true
 image = "images/the-bleatles.png"
 
 [[params.gallery.gallery_item]]
-image = "images/vandoren.png"
+image = "images/VanDoren2.png"
 
 [[params.gallery.gallery_item]]
 image = "images/goatsmack.png"
@@ -74,6 +74,12 @@ image = "images/ladybaabaa.png"
 
 [[params.gallery.gallery_item]]
 image = "images/bluehorngroup.png"
+
+[[params.gallery.gallery_item]]
+image = "images/ABBY.png"
+
+[[params.gallery.gallery_item]]
+image = "images/bowling-for-goats.png"
 
 [[params.gallery.gallery_item]]
 image = "images/simon-and-goatfunkel.png"
