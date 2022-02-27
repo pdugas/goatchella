@@ -75,6 +75,9 @@ image = "images/ladybaabaa.png"
 [[params.gallery.gallery_item]]
 image = "images/bluehorngroup.png"
 
+[[params.gallery.gallery_item]]
+image = "images/bryce-springsteen.png"
+
 [params.footer]
 title = "About Us"
 content = "Don't mind us. We're just a bunch of goat-obsessed criblanians."
