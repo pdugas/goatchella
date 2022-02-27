@@ -76,6 +76,9 @@ image = "images/ladybaabaa.png"
 image = "images/bluehorngroup.png"
 
 [[params.gallery.gallery_item]]
+image = "images/simon-and-goatfunkel.png"
+
+[[params.gallery.gallery_item]]
 image = "images/bryce-springsteen.png"
 
 [params.footer]
