@@ -64,7 +64,7 @@ image = "images/the-bleatles.png"
 image = "images/VanDoren2.jpg"
 
 [[params.gallery.gallery_item]]
-image = "images/goatsmack.png"
+image = "images/ABBY.jpg"
 
 [[params.gallery.gallery_item]]
 image = "images/okgoat.png"
@@ -76,7 +76,7 @@ image = "images/ladybaabaa.png"
 image = "images/bluehorngroup.png"
 
 [[params.gallery.gallery_item]]
-image = "images/ABBY.jpg"
+image = "images/goatsmack.png"
 
 [[params.gallery.gallery_item]]
 image = "images/bowling-for-goat.png"
