@@ -6,6 +6,8 @@ date: 2021-04-20
 ---
 ___We're going to Albania!!!___
 
+![Moar Goats!!!](/images/travel.png)
+
 Join us in the lovely village of Bitinckë in the Korçë County of Albania for a
 week of music, art, food, drinks, and general nonsense! 
 
