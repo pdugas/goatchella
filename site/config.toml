@@ -80,7 +80,7 @@ title = "About Us"
 content = "Don't mind us. We're just a bunch of goat-obsessed criblanians."
 address = "42 Unnamed, Road, Bitinckë, Albania"
 hours = "Weekdays, 9:00AM–4:20PM, GMT+1"
-copyright = "Copyright &copy; 2022 Silly Nonsense, Inc."
+copyright = "Copyright &copy; 2022 [Silly Nonsense, Inc.](https://github.com/pdugas/goatchella)"
 
 [params.social]
 yelp = "#"
@@ -89,6 +89,4 @@ twitter = "#"
 instagram = "#"
 email = "#"
 linkedin = "#"
-github = "https://github.com/pdugas/goatchella"
-
 
